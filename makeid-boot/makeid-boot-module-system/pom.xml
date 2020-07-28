@@ -28,14 +28,21 @@
 			</snapshots>
 		</repository>
 	</repositories>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>cn.com.wewin.boot</groupId>
 			<artifactId>makeid-boot-base-common</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>cn.com.wewin.boot</groupId>
+			<artifactId>makeid-boot-tap-water</artifactId>
+			<version>${jeecgboot.version}</version>
+		</dependency>
+
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
